@@ -98,20 +98,6 @@ All application data is stored in the browser using **Local Storage**, allowing 
 
 ---
 
-## 💻 How to Run
-
-1. Download or clone this repository.
-
-```bash
-git clone https://github.com/yourusername/CareerFlow.git
-```
-
-2. Open the project folder.
-
-3. Run **index.html** in your browser.
-
-No additional setup or installation is required.
-
 ---
 
 ## 🎯 Future Improvements
