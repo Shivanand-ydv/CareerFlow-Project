@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerFlow</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+ <!-- Navigation bar -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                CareerFlow
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#add-application">Add Application</a></li>
+                <li><a href="#applications">Applications</a></li>
+                <li><a href="#analytics">Analytics</a></li>
+            </ul>
+    </header>
+    <main>
+ <!-- Hero-section App introduction -->
+        <section class="hero-section" id="hero">
+            <div class="container">
+                <div class="hero-content">
+                <h1>Track You <br>
+                    <span>Job Journey</span></h1>
+                <p>Manage application,track progress, and organize your career Journey easily.</p>
+                <button id="signup">Get Start</button>
+            </div>
+            <div class="hero-image">
+                <img src="image.png" alt="Dashboard">
+            </div>
+        </div>
+        </section>
+ <!-- dashboard-section-->
+        <section class="dashboard-section" id="dashboard">
+            <div class="container-dashboard">
+                    <h1>Job Overview</h1>
+                <div class="cards">
+                    <div class="Card">
+                        <h4>Total Applications</h4>
+                        <div id="totalApplications"></div>
+
+                    </div>
+                    <div class="Card">
+                        <h4>Applied</h4>
+                        <div id="appliedCount"></div>
+                    </div>
+                    <div class="Card">
+                        <h4>Interview</h4>
+                        <div id="interviewCount"></div>
+                    </div>
+                    <div class="Card">
+                        <h4>Offer</h4>
+                        <div id="offerCount"></div>
+                    </div>
+                    <div class="Card">
+                        <h4>Rejected</h4>
+                        <div id="rejectedCount"></div>
+                    </div>
+                </div>  
+            </div>
+        </section> 
+        <!-- Application Section Add New Application -->
+        <section class="application-section" id="add-application">
+            <div class="cointainer">
+                <div class="form-wrapper">
+                    <div class="form-header">
+                        <h2>Add New Application</h2>
+                            <p>Track your job application</p>
+                    </div>
+
+          <!-- Handle all input controls -->
+        <form id="applicationForm" class="application-form">
+            <div class="input-group">
+                    <label>Company Name</label>
+                    <input id="company" type="text" placeholder="Enter Company name" required>
+                </div>
+                <div class="input-group">
+                    <label>Job Role</label>
+                    <input id="role" type="text" placeholder="eg. Frontend Developer" required>
+                </div>
+                <div class="input-group">
+                    <label>Location</label>
+                    <input id="location" type="text" placeholder="Remote/City">
+                </div>
+                <div class="input-group">
+                    <label>Salary</label>
+                    <input id="salary" type="number" placeholder="Expected salary">
+                </div>
+                <div class="input-group">
+                    <label>Job Link</label>
+                    <input id="jobLink" type="url" placeholder="Job URL">
+                </div>
+                <div class="input-group">
+                    <label>Apply Date</label>
+                    <input id="applyDate" type="date">
+                </div>
+                <div class="input-group">
+                    <label>Status</label>
+                    <select id="status">
+                        <option>Applied</option>
+                        <option>Interview</option>
+                        <option>Offer</option>
+                        <option>Rejected</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label>Notes</label>
+                    <textarea id="notes" placeholder="Add Notes..."></textarea>
+                </div>
+                <button class="add-button">
+                    Add Application
+                </button>
+            </form>
+            </div>           
+            </div>  
+   </section>
+     
+    <section class="Application-Display" id="applications">
+        <div class="application-wrapper">
+            <div class="application-toolbar">
+                <input id="search" type="search" placeholder="Search">
+                <select>
+                    <Option>All</Option>
+                    <Option>Applied</Option>
+                    <Option>Interview</Option>
+                    <Option>Offer</Option>
+                    <Option>Rejected</Option>
+                </select>
+            </div>
+            <!-- card will come here -->
+             <div id="applicationList" class="card-display">
+                No Applications are Present
+            </div>
+        </div>
+        </section> 
+        <section class="analytics-section" id="analytics">
+
+    <div class="container-dashboard">
+
+        <h1>Analytics</h1>
+
+        <div class="cards">
+
+            <div class="Card">
+                <h4>Total Applications</h4>
+                <p id="analyticsTotal">0</p>
+            </div>
+
+            <div class="Card">
+                <h4>Success Rate</h4>
+                <p id="successRate">0%</p>
+            </div>
+
+            <div class="Card">
+                <h4>Interviews</h4>
+                <p id="analyticsInterview">0</p>
+            </div>
+
+            <div class="Card">
+                <h4>Offers</h4>
+                <p id="analyticsOffer">0</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <footer class="footer">
+        <div>
+            <h2> CareerFlow</h2>
+            <p>Manage Your Job Search</p>
+        </div>
+        <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">LinkedIn</a></li>
+                <li><a href="#">Email</a></li>
+            </ul>
+            <p>2026 CareerFlow.All rights reserved.</p>
+        </div>
+    </footer>
+     
+     
+
+    </main>
+    <script src="code.js" ></script>
+</body>
+</html>
