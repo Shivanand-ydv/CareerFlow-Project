@@ -98,8 +98,6 @@ All application data is stored in the browser using **Local Storage**, allowing 
 
 ---
 
----
-
 ## 🎯 Future Improvements
 
 - Edit Application
