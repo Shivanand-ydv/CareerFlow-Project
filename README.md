@@ -42,28 +42,6 @@ CareerFlow/
 └── README.md
 ```
 
----
-
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Uploading Screenshot (209).png…]()
-
-
-### 📊 Dashboard
-(Add Screenshot Here)
-
-### ➕ Add Application
-(Add Screenshot Here)
-
-### 📋 Applications
-(Add Screenshot Here)
-
-### 📈 Analytics
-(Add Screenshot Here)
-
----
-
 ## 🚀 Functionalities
 
 ### Add Application
