@@ -47,7 +47,8 @@ CareerFlow/
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-(Add Screenshot Here)
+![Uploading Screenshot (209).png…]()
+
 
 ### 📊 Dashboard
 (Add Screenshot Here)
